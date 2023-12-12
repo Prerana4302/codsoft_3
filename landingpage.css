@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Background color for the website */
+    overflow: hidden; /* Hide scroll bars */
+}
+  
+  header {
+    background-color: lightgreen; /* Background color for the navbar */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+  }
+  
+  section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  section img {
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+  }
+  
+  section p {
+    max-width: 400px;
+    font-size: 18px; 
+    color: #333;
+    font-style: italic;
+  }
+  
+  nav a:hover {
+    color: red; /* Change the color on hover */
+  }
+
+  footer {
+    background-color:lightgreen; 
+    color:black;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
